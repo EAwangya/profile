@@ -183,3 +183,195 @@ In this example, the emphasis is on the steps taken to resolve the conflict, fos
 Based on my research and understanding of the position's responsibilities and market standards, I am seeking a salary range of $130000 - $180000. However, I am open to discussing this further and considering the overall benefits package and opportunities for growth within the company. I believe in fair compensation that aligns with the value I can bring to the organization.
 
 </details>
+
+
+<details><summary>Terraform</summary> 
+
+### Introduction:
+In my previous role, I had the opportunity to extensively use Terraform to manage and provision infrastructure.
+
+### Projects:
+
+Example: "One notable project involved setting up an AWS infrastructure, where I used Terraform to define and deploy resources such as VPCs, EC2 instances, and RDS databases."
+
+### Collaboration and Workflow:
+
+Collaborating closely with the development and operations teams, we established a version-controlled Terraform workflow using Git, ensuring seamless collaboration, version tracking, and code reviews through pull requests on platforms like GitHub.
+
+### Problem Solving:
+
+Encountering challenges in scaling our infrastructure, I implemented modules and variables in Terraform to create reusable and scalable configurations. This not only streamlined our deployment process but also facilitated easy updates and maintenance.
+
+### Infrastructure as Code (IaC) Principles:
+
+I strongly believe in Infrastructure as Code principles, and Terraform became an integral part of our IaC strategy. This allowed us to version our infrastructure, maintain consistency across environments, and rapidly adapt to changing requirements.
+
+### Continuous Learning:
+
+I regularly stay informed about new features and best practices within the Terraform community, ensuring that our infrastructure provisioning aligns with industry standards and takes advantage of the latest advancements.
+
+</details>
+
+<details><summary>K8s</summary> 
+
+### Introduction:
+
+Throughout my role as a DevOps Engineer, I actively utilized Kubernetes to orchestrate containerized applications, streamline deployment processes, and enhance scalability."
+
+### Projects:
+
+One notable project involved transitioning our monolithic application to a microservices architecture. I spearheaded the adoption of Kubernetes to efficiently manage containerized workloads, ensuring improved scalability and resource utilization."
+
+### Collaboration and Workflow:
+
+I have Collaborated closely with development and operations teams, to established a containerized application workflow using Kubernetes. This included defining deployment configurations, managing pods, and implementing rolling updates for seamless application releases."
+
+### Problem Solving:
+
+In addressing some issues in ks8, like scaling challenges, I implemented horizontal pod autoscaling in Kubernetes, ensuring our applications could dynamically adapt to varying workloads. This not only improved performance but also optimized resource utilization.
+
+### Infrastructure as Code (IaC) Integration:
+
+Adhering to Infrastructure as Code principles, I have integrated Kubernetes manifests into our version control system. This allowed us to maintain a declarative configuration, ensuring consistency across environments and facilitating reproducibility and I have also integrated kubernetes in the CICD pipeline.
+
+### Continuous Learning:
+
+I actively stay informed about Kubernetes advancements, attending conferences and engaging with the Kubernetes community. 
+
+</details>
+
+<details><summary>Docker</summary> 
+
+### Introduction:
+
+### In my capacity as a Devops engineer, I have extensively employed Docker to containerize applications, simplify deployment, and enhance the portability of software across various environments.
+
+### Projects:
+
+One noteworthy project involved modernizing our deployment process. Where I championed the adoption of Docker containers to encapsulate our applications, it's libraries and dependencies, facilitating consistent deployment across development, testing, and production environments.
+
+### Collaboration and Workflow:
+
+I have collaborated with both development and operations teams, to implement a containerized development workflow using Docker. This included defining Dockerfiles, managing images, and utilizing Docker Compose for multi-container applications."
+
+### Problem Solving:
+
+In addressing compatibility challenges between development and production environments, I utilized Docker to create isolated containers, ensuring consistent runtime environments and minimizing the 'it works on my machine' problem to improved on deployment reliability.
+
+### Infrastructure as Code (IaC) Integration:
+
+Aligning with Infrastructure as Code principles, I integrated Docker configurations into our version control system. This allowed us to maintain versioned Dockerfiles and docker-compose.yaml files, ensuring transparency and reproducibility in our containerized application stack."
+
+### Continuous Learning:
+
+I stay actively engaged with the Docker community, exploring new features and best practices. This commitment ensures our containerization strategies leverage the latest advancements and align with industry standards."
+
+</details>
+
+<details><summary>Jenkins CICD</summary> 
+
+### Introduction:
+
+### In my role as a DE, I played a crucial role in optimizing our continuous integration and delivery processes, utilizing Jenkins as a key automation tool."
+
+### Projects:
+
+A significant project involved the implementation of a robust CI/CD pipeline. I spearheaded the configuration of Jenkins jobs to automate builds, tests, and deployments, resulting in a streamlined and efficient software delivery lifecycle.
+
+### Collaboration and Workflow:
+
+Collaborating closely with development and QA teams, we established a collaborative Jenkins pipeline that integrated seamlessly with version control systems. This allowed us to automate code builds, run tests, and deploy artifacts, fostering a culture of continuous integration."
+
+### Problem Solving:
+
+In addressing deployment challenges, I configured Jenkins to orchestrate the deployment process, allowing for consistent and automated releases. This significantly reduced manual errors and improved the overall reliability of our deployment pipeline."
+
+### Infrastructure as Code (IaC) Integration:
+
+Adhering to Infrastructure as Code principles, I integrated Jenkins pipeline configurations into our version control system. This facilitated version tracking, collaboration, and ensured that our CI/CD process was treated as code."
+
+### Continuous Learning:
+
+I actively engage with the Jenkins community, exploring new plugins and best practices. This commitment ensures that our CI/CD pipelines leverage the latest features and adhere to industry standards.
+
+</details>
+
+<details><summary>Ansible</summary> 
+
+### Introduction:
+
+In my capacity as a [Your Previous Role], I played a pivotal role in automating infrastructure management and configuration tasks using Ansible, contributing to increased efficiency and scalability."
+
+### Projects:
+
+A significant project involved implementing configuration management for our server infrastructure. I utilized Ansible playbooks to automate the provisioning, configuration, and maintenance of servers, ensuring consistency and reducing manual errors.
+
+### Collaboration and Workflow:
+
+Collaborating closely with operations and development teams, I integrated Ansible into our continuous integration pipeline. This involved creating Ansible roles for application deployment, ensuring seamless collaboration and continuous delivery."
+
+### Problem Solving:
+
+In addressing configuration drift across servers, I implemented Ansible playbooks to enforce consistent configurations. This not only mitigated discrepancies but also provided a reliable mechanism for scaling our infrastructure.
+
+### Infrastructure as Code (IaC) Integration:
+
+Aligning with Infrastructure as Code principles, I integrated Ansible playbooks into our version control system. This allowed us to treat infrastructure configurations as code, facilitating version tracking, collaboration, and ensuring reproducibility."
+
+### Continuous Learning:
+
+I stay actively engaged with the Ansible community, exploring new modules and best practices. This commitment ensures that our automation processes leverage the latest features and adhere to industry standards.
+
+</details>
+
+<details><summary>Monitoring</summary> 
+
+### Introduction:
+
+In my role as a [Your Previous Role], I actively contributed to establishing robust monitoring solutions, ensuring real-time visibility into system health and performance metrics."
+
+### Projects:
+
+A key project involved implementing a comprehensive monitoring system for our infrastructure. I employed tools like Prometheus and Grafana to collect, visualize, and alert on crucial performance metrics, enhancing our ability to proactively address issues.
+
+### Collaboration and Workflow:
+
+Collaborating closely with both operations and development teams, I integrated monitoring solutions into our continuous integration pipeline. This involved setting up alerts for key application and infrastructure metrics, facilitating rapid issue identification and resolution."
+
+### Problem Solving:
+
+In addressing intermittent performance issues, I fine-tuned monitoring thresholds and implemented anomaly detection. This proactive approach not only minimized downtime but also allowed us to identify potential issues before they escalated."
+
+### Infrastructure as Code (IaC) Integration:
+
+Embracing Infrastructure as Code principles, I integrated monitoring configurations into our version control system. This enabled us to version our monitoring setups, ensuring consistency across environments and allowing for easy replication."
+
+### Continuous Learning:
+
+I stay actively engaged with the monitoring community, exploring new tools and best practices. This commitment ensures that our monitoring strategies leverage the latest advancements and align with industry standards."
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
+
+<details><summary>About company</summary>
+
+</details>
