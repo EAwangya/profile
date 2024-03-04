@@ -356,11 +356,26 @@ I stay actively engaged with the monitoring community, exploring new tools and b
 
 </details>
 
-<details><summary>About company</summary>
-
+<details><summary>Career goals</summary>
+In my next position, I aim to further develop my skills in data analysis and project management. I am looking for a role that aligns with my passion for technology and innovation. I aspire to take on a leadership role, contributing my expertise to impactful projects and aligning with a company that values collaboration and innovation. Ultimately, I see myself growing into a leadership position in the tech industry, driving positive change and innovation.
 </details>
 
-<details><summary>About company</summary>
+<details><summary>DevSecOps</summary>
+
+Throughout my career, I've gained significant experience in implementing DevSecOps principles to fortify software development pipelines. In my previous role, I led the transformation of our development practices to seamlessly integrate security measures at every stage of the Software Development Life Cycle.
+
+In one project, I have implemented a CI/CD pipeline using Jenkins, where I integrated several security tools to ensure DevSecOps framework. I have employed pre-commit hooks with Git Leaks to detect security issues before they are submitted to a central (Git) repository.I employed static code analysis (SAST) tools such as SonarQube to scan code for vulnerabilities and compliance issues during the build phase, with Software Composition Analysis (SCA) to detect potential vulnerable components in the codebase third party library and dependencies - This not only facilitated early detection but also empowered developers with immediate feedback to address security concerns.
+
+To enhance container security, I implemented Docker security scanning using tools like Trivy, and Synk. This allowed us to identify and remediate vulnerabilities in container images before deployment, reducing the risk of exploitation in production.
+
+As part of our automated testing strategy, I integrated dynamic application security testing (DAST) tools like OWASP ZAP into our pipeline. By simulating real-world attacks, we identified and addressed security weaknesses in our applications dynamically. This approach significantly improved our ability to proactively identify and mitigate security risks.
+
+Moreover, I championed the implementation of Infrastructure as Code (IaC) using Terraform, ensuring that our cloud infrastructure adhered to security best practices. We incorporated automated security checks within the IaC process, guaranteeing that any changes to our infrastructure were compliant with security policies.
+
+I believe that my hands-on experience with tools like Jenkins, SonarQube, Clair, Semgrep, Synk. Trivy, OWASP ZAP, and Terraform, coupled with my strategic approach to integrating security into the development lifecycle, can significantly contribute to enhancing security and efficiency in your organization.
+
+I look forward to discussing these experiences in more detail during our interview and exploring how my skills align with your organization's DevSecOps goals."
+
 
 </details>
 
