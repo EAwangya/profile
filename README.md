@@ -1,43 +1,30 @@
 <details><summary>About company</summary>
 
-Genentech, Inc. is an American biotechnology corporation with headquartered in South San Francisco, California, founded in 1976. It's  regarded as the world's first biotechnology company. It's now a member of the Roche Group. Genentech is dedicated to pursuing science to discover and develop medicines for people with serious and life-threatening diseases. 
+ Prove is the modern way of proving identity
 
 </details>
 
 
 <details><summary>Tell me about yourself and projects you have worked on</summary>
 
-Thank you for the opportunity to share about myself and my projects. I am a dedicated DevOps 
-engineer with a passion for streamlining software development processes and optimizing infrastructure. 
-Throughout my career, I have been involved in various projects where I've contributed to the 
-successful deployment and maintenance of complex systems.
+Thank you for the opportunity to share about myself and my work. I am a dedicated Site Reliability Engineer with a strong focus on automation, scalability, and reliability. My passion for building and maintaining robust systems has driven my career, and I’ve had the privilege of working on projects that align well with the key responsibilities of this role..
 
-In my previous role at Company XYZ, I was responsible for implementing and managing CI/CD 
-pipelines using tools such as Jenkins and GitLab. I collaborated closely with development 
-teams to automate build, test, and deployment processes, resulting in faster release cycles 
-and improved software quality.
+## Experience and Projects
+In my current role at Chater, I am responsible for automating the deployment and management of both on-prem and cloud-based Kubernetes clusters. This includes creating and managing CI/CD pipelines to streamline our development lifecycle and working closely with development teams to ensure that applications meet (SLOs) - Service Level Objectives. I also focus on monitoring infrastructure, applications, and services to ensure their availability, reliability, and scalability, which are core aspects of the role you're hiring for.
 
-One significant project I worked on was the migration of a monolithic application
- to a microservices architecture. I led the effort to containerize the application using 
-Docker and orchestrated the deployment using Kubernetes. By breaking down the application 
-into microservices, we achieved greater scalability, resilience, and deployment flexibility.
+One key project I worked on was designing and implementing automation workflows to provision Kubernetes clusters using RKE2 on VMware vSphere ESXi, with a focus on hybrid cloud scalability by extending workloads to AWS. 
 
-I also have experience with infrastructure provisioning and configuration management. 
-At Company ABC, I implemented infrastructure-as-code practices using tools like 
-Terraform and Ansible. I designed and maintained cloud environments on AWS, 
-ensuring high availability and efficient resource utilization.
+Additionally, I have hands-on experience with infrastructure-as-code (IaC) using Terraform and Ansible, which has allowed me to automate the provisioning of both public and private cloud environments. 
 
-Furthermore, I have a strong focus on monitoring and observability. 
-I implemented centralized logging and metrics collection using ELK Stack and Prometheus, 
-enabling proactive issue detection and troubleshooting.
+I developed Ansible playbooks to automate IP allocation via Infoblox IPAM and Terraform provisioning for VMs on-prem. I automated post-provisioning tasks like the installation of Centrify and Tanium, ensuring security and identity management across all environments.
 
-Apart from technical expertise, I am an advocate for collaboration and continuous learning. 
-I enjoy working in cross-functional teams, fostering effective communication and knowledge sharing.
 
-In summary, my experience encompasses CI/CD pipeline automation, microservices architecture, 
-infrastructure-as-code, cloud platforms, and monitoring. I'm passionate about utilizing DevOps 
-principles to improve software delivery, increase efficiency, and enhance overall system performance."
+My experience also spans observability; I implemented centralized logging and metrics collection using the ELK Stack and Prometheus/Grafana. This approach allows us to proactively detect issues, troubleshoot, and improve the reliability of our systems.
 
+## Collaboration and Leadership
+I strongly value collaboration, and I’ve worked with both technical and non-technical teams to foster ownership and maintain a culture of reliability. I believe in the SRE principle of ‘you build it, you own it’, and I always ensure that I’m providing documentation and training materials to support team members and improve their ability to operate production systems effectively.
+
+I am also passionate about continuous learning, and I actively stay updated on new technologies and best practices to further improve system observability, performance, and scalability."
 
 </details>
 
