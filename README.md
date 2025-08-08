@@ -157,11 +157,44 @@ This case really highlighted the value of correlating application logs with infr
 
 In one case, I had to debug a production issue where a Kubernetes pod was intermittently failing to authenticate with a backend service. The logs were massive—gigabytes of mixed stdout and error output across dozens of files.
 
-I used a grep pipeline to isolate error entries that included timestamps, the keyword AuthError, and only those that occurred within a certain time range. Here's a simplified version of the command I used:
+I used a grep pipeline to isolate error entries that included timestamps, the keyword AuthError, and only those that occurred within a certain time range, I combined this with awk later to extract only the pod names and correlate with kubelet logs.
+Here's a simplified version of the command I used:
+
+### grep "AuthError" /var/log/pods/*/*.log | grep "2025-08-08T10:3[0-9]" | \
+### awk '{print $2}' | sort | uniq
+
+### Breakdown of the Command
+grep "AuthError" /var/log/pods/*/*.log:
+
+This is the first pass. It searches all log files in a common Kubernetes log directory for the string "AuthError". This immediately cuts down the data from gigabytes to a much smaller set of lines.
+
+| grep "2025-08-08T10:3[0-9]":
+
+This is the second pass, using a pipe (|) to send the output of the first grep to a second grep.
+
+It refines the search to a specific time window. The regular expression 10:3[0-9] matches any time between 10:30 and 10:39 (i.e., 10:30, 10:31, ..., 10:39). This is a powerful way to focus on the exact minutes the issue was occurring.
+
+| awk '{print $2}':
+
+This is the awk command, which takes the filtered output and processes it line by line.
+
+awk treats each line as a series of fields separated by whitespace.
+
+{print $2} tells awk to print the second field ($2) of each line. In this example, the second field is the pod ID (e.g., pod-a1b2c3d4e).
+
+| sort | uniq:
+
+These are two classic command-line utilities chained together.
+
+sort takes the list of pod names from awk and sorts them alphabetically.
+
+uniq removes duplicate entries from the sorted list. This gives you a clean list of unique pod names that experienced the AuthError within that specific time window.
+
+
+
 ```
 Find lines containing the word “error” in all .log files - grep "error" *.log
-```
-```
+
 A More Advanced Example with Case-insensitive, recursive, with line numbers
 grep -rin "timeout" /var/log/
 -r: Recursively search subdirectories
@@ -174,9 +207,6 @@ grep -rin "timeout" /var/log/
 
 /var/log/: Directory to search in
 ```
-This helped me narrow down the issue to a very specific window where the backend service was rejecting tokens due to clock skew. I combined this with awk later to extract only the pod names and correlate with kubelet logs.
-
-Using grep in this layered way saved me from having to load the logs into an external tool and helped identify the root cause much faster."
 
 </details>
 
