@@ -4,9 +4,19 @@
 
 </details>
 
-<details><summary>About company</summary>
+<details><summary>What have you been doing in your role at Charter Communications?</summary>
 
- Prove is the modern way of proving identity
+At Charter Communications, I worked as a DevOps Engineer IV, primarily focused on automating and managing on-premises and hybrid cloud Kubernetes environments. One of my key responsibilities was deploying and maintaining RKE2 Kubernetes clusters on VMware vSphere for internal applications.
+
+I automated the provisioning process using a combination of Terraform, Ansible, and Infoblox IPAM, which significantly reduced manual overhead. I also integrated these clusters with Rancher for centralized management and governance.
+
+For CI/CD, I implemented GitLab pipelines to build, test, and deploy containerized applications using Helm charts. I also deployed and managed self-hosted GitLab Runners to securely run jobs inside the enterprise network.
+
+On the infrastructure side, I handled Nginx reverse proxies, load balancing, and NFS shared storage setup. I applied security best practices by enforcing RBAC, secrets management, and network policies, and also integrated tools like Centrify for identity management.
+
+I designed a GitOps strategy using ArgoCD for application delivery, and integrated Prometheus and Grafana to monitor workloads across clusters. I collaborated with developers to containerize legacy and new applications, and created reusable golden VM images stored in JFrog Artifactory.
+
+My day-to-day also involved troubleshooting network and VM-level issues (L2/L3), writing Bash/Python scripts, and ensuring that all infrastructure was documented and compliant.
 
 </details>
 
