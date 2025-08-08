@@ -4,6 +4,55 @@
 
 </details>
 
+<details><summary>QUESTIONS TO ASK</summary>
+
+```markdown
+## 🔧 Role-Specific and Technical Questions
+- "How does your team currently manage software packaging and delivery to production environments? Are there any ongoing efforts to modernize or streamline this process?"
+(This ties directly to the emphasis on packaging and delivering software.)
+
+- "What configuration management tools are most heavily used in your environment today — is the team standardized on tools like Ansible or are multiple tools (e.g., Puppet, Chef) still in use?"
+
+- "Can you describe how automation is currently implemented in your deployment workflows? Are there any tools or processes you'd like to improve or replace?"
+
+- "How do you typically handle third-party software updates and upgrades across environments?"
+
+- "What does monitoring and observability look like here — are tools like InfluxDB and Grafana already integrated into your pipelines?"
+
+## 🛠 Infrastructure & Environment Questions
+- "How is your infrastructure provisioned and maintained? Are virtual machines still a big part of your environment or is there a push towards containers or the cloud?"
+
+- "Is Docker used for local development, CI/CD, or full production deployments? Are there any plans to adopt container orchestration tools like Kubernetes?"
+
+- "How is HAProxy currently used in your infrastructure? Is it primarily for load balancing, or does it serve additional roles like traffic shaping or routing?"
+
+## 👥 Team Collaboration & Development Process
+- "How closely do deployment engineers collaborate with developers and QA teams? Is DevOps fully integrated across teams?"
+
+- "Can you describe your Agile practices? Does the team follow Scrum or Kanban, and how does that impact deployment and release planning?"
+
+- "What role do deployment engineers play during daily stand-ups or sprint planning?"
+
+## 📈 Growth, Documentation, and Expectations
+- "What would success look like in the first 90 days for someone in this role?"
+
+- "Are there any high-priority projects or pain points the person in this role will be expected to address early on?"
+
+- "How much emphasis is placed on writing and maintaining technical documentation for internal tools and deployments?"
+
+## 🤝 Mentorship & Leadership
+- "The description mentions mentoring junior engineers. Can you share more about the team structure and where this role fits in terms of leadership or guidance?"
+
+## 🧭 Wrap-Up/Closing Questions
+- "What are the biggest technical challenges your team is currently facing?"
+
+- "How do you see this role evolving over the next 1–2 years as the organization grows?"
+
+- "What qualities or skills have made previous team members successful in this role?"
+```
+</details>
+
+
 <details><summary>CAREER GOALS</summary>
 
 My career goal is to continue advancing as a DevOps and cloud automation expert, with a focus on designing scalable, secure, and production-ready infrastructure. I want to be in a role where I’m not just writing automation scripts, but actively driving architectural decisions, improving CI/CD maturity, and mentoring others on best practices.
