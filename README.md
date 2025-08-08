@@ -4,7 +4,17 @@
 
 </details>
 
-<details><summary>What have you been doing in your role at Charter Communications?</summary>
+<details><summary>CAREER GOALS</summary>
+
+My career goal is to continue advancing as a DevOps and cloud automation expert, with a focus on designing scalable, secure, and production-ready infrastructure. I want to be in a role where I’m not just writing automation scripts, but actively driving architectural decisions, improving CI/CD maturity, and mentoring others on best practices.
+
+In the long term, I see myself stepping into a senior or lead DevOps role where I can contribute to both hands-on delivery and strategic planning—especially in areas like GitOps, platform engineering, and DevSecOps. I’m particularly passionate about working in environments where infrastructure is treated as code, and where reliability, automation, and security are first-class citizens.
+
+Charter’s emphasis on innovation, containerization, and production-grade deployments aligns really well with these goals. It’s a great place to grow deeper in technologies I already work with—like Kubernetes, Terraform, Ansible, and GitLab—while also contributing to larger organizational impact.
+
+</details>
+
+<details><summary>PASS ROLE</summary>
 
 At Charter Communications, I worked as a DevOps Engineer IV, primarily focused on automating and managing on-premises and hybrid cloud Kubernetes environments. One of my key responsibilities was deploying and maintaining RKE2 Kubernetes clusters on VMware vSphere for internal applications.
 
@@ -20,7 +30,7 @@ My day-to-day also involved troubleshooting network and VM-level issues (L2/L3),
 
 </details>
 
-<details><summary>What is your SALARY requirement?</summary>
+<details><summary>SALARY</summary>
 
 ``` Option 1: If you'd prefer the company to share first ```
 "I'm open and flexible, and I’d really like to learn more about the full scope of the role and team before discussing exact numbers. That said, I’m confident we can align on something that’s fair based on the responsibilities and market."
@@ -30,7 +40,7 @@ My day-to-day also involved troubleshooting network and VM-level issues (L2/L3),
 
 </details>
 
-<details><summary>What are you most CONFIDENT in on your resume?, What SCALE are you most confident working at?</summary>
+<details><summary>CONFIDENT,SCALE</summary>
 
 ```What are you most confident in on your resume?```
 "I'm most confident in my experience with Terraform and AWS infrastructure automation. I've used Terraform extensively to provision and manage cloud resources in production environments, including VPCs, EC2, EKS clusters, and IAM policies. I’ve built reusable modules, implemented remote state with locking, and integrated Terraform workflows into CI/CD pipelines using GitHub Actions. It’s an area where I’ve made a measurable impact—improving deployment speed, reducing manual errors, and enabling infrastructure consistency across teams."
@@ -40,7 +50,7 @@ My day-to-day also involved troubleshooting network and VM-level issues (L2/L3),
 
 </details>
 
-<details><summary>Tell me about a CONFLICT at work and how you dealt with it."</summary>
+<details><summary>CONFLICT"</summary>
 
 "Sure. One situation that comes to mind was during a project to implement infrastructure-as-code across our cloud environments. I was working closely with a developer who preferred to manage certain AWS resources manually through the console, while I was advocating for consistency and automation using Terraform.
 
@@ -52,7 +62,7 @@ In the end, we aligned on a process that allowed faster manual testing in non-pr
 
 </details>
 
-<details><summary>Describe something you're really PROUD of.</summary>
+<details><summary>PROUD of.</summary>
 
 "One project I’m really proud of was when I led the effort to refactor and modernize our infrastructure provisioning process using Terraform and GitHub Actions.
 
@@ -94,7 +104,7 @@ This case really highlighted the value of correlating application logs with infr
 
 </details>
 
-<details><summary>An example of when you've used GREP for a complicated search</summary>
+<details><summary>GREP cmd</summary>
 
 In one case, I had to debug a production issue where a Kubernetes pod was intermittently failing to authenticate with a backend service. The logs were massive—gigabytes of mixed stdout and error output across dozens of files.
 
@@ -121,7 +131,7 @@ Using grep in this layered way saved me from having to load the logs into an ext
 
 </details>
 
-<details><summary>what are your favorite AWS services?y</summary>
+<details><summary>favorite AWS services?y</summary>
 
 That’s a great question. One of my favorite AWS services is Amazon ECS and EKS, because I work extensively with containerized applications. ECS is great for simpler use cases and fast deployments, while EKS gives me full Kubernetes flexibility for more complex orchestration.
 
@@ -132,6 +142,7 @@ For infrastructure provisioning, CloudFormation is solid, but Terraform has been
 Lastly, CloudWatch is a service I rely on heavily—not just for logging and metrics, but for setting up alarms and integrating it with SNS or Lambda to respond to incidents quickly.
 
 </details>
+
 <details><summary>Tell me about yourself and projects you have worked on</summary>
 
 Thank you for the opportunity to share about myself and my work. I am a dedicated Site Reliability Engineer with a strong focus on automation, scalability, and reliability. My passion for building and maintaining robust systems has driven my career, and I’ve had the privilege of working on projects that align well with the key responsibilities of this role..
