@@ -65,19 +65,17 @@ Charter’s emphasis on innovation, containerization, and production-grade deplo
 
 <details><summary>PASS ROLE</summary>
 
-In my most recent role as a DevOps Engineer IV at Charter Communications, I was responsible for designing, deploying, and maintaining both on-premises and hybrid Kubernetes infrastructure to support our internal applications. I focused heavily on automation, using Terraform and Ansible to provision RKE2 Kubernetes clusters on VMware vSphere, integrated with Infoblox IPAM for network management.  
-I also integrated these clusters with Rancher for centralized management and governance.
+In my role as a DevOps Engineer IV at Charter Communications, I was responsible for designing, deploying, and maintaining on-premises and hybrid Kubernetes environments. I automated RKE2 Kubernetes cluster provisioning on VMware vSphere using Terraform, Ansible, and Infoblox IPAM, integrating them with Rancher for centralized management.
 
-I worked closely with our software and QA teams to streamline software delivery. For CI/CD, I built GitLab pipelines that automated building, testing, and deploying containerized applications using Helm charts, and I maintained self-hosted GitLab Runners to ensure secure execution inside our enterprise network, I also wrote CI/CD pipelines using Jenkins for the complex legacy integrations.
+I worked closely with software and QA teams to streamline software delivery, implementing GitLab pipelines to build, test, and deploy containerized applications using Helm charts. I also deployed and maintained self-hosted GitLab Runners for secure job execution inside the enterprise network.
 
-On the infrastructure side, I managed Nginx reverse proxies, configured load balancing, and set up NFS shared storage. I also implemented security best practices by enforcing RBAC, secrets management, and network policies, and integrated Centrify for identity management.
+My work involved configuring Nginx reverse proxies, load balancing, and NFS shared storage, while enforcing RBAC, secrets management, and network policies. I integrated Centrify for identity management and implemented a GitOps workflow with ArgoCD for automated application delivery. For observability, I deployed Prometheus and Grafana to monitor workloads across multiple clusters.
 
-To enhance our delivery process, I implemented a GitOps workflow using ArgoCD, enabling automated, declarative deployments. 
-For observability, I integrated Prometheus and Grafana to monitor workloads across multiple clusters.
+I also collaborated with developers to containerize legacy and new applications, creating golden VM images stored in JFrog Artifactory. In addition, I have hands-on experience with multiple package managers—npm for JavaScript/TypeScript builds, pip for Python applications, Maven and Gradle for Java microservices—integrating these into CI/CD pipelines for automated builds, testing, and artifact packaging.
 
-I also collaborated with developers to containerize both legacy and new applications, and created golden VM images stored in JFrog Artifactory for consistent application hosting.
+On the database side, I worked with MySQL and PostgreSQL, supporting application integrations, managing schema changes, and ensuring secure connectivity from Kubernetes workloads.
 
-Day-to-day, my work involved troubleshooting network and VM-level issues, writing automation scripts in Bash and Python, and ensuring all systems and processes were well-documented and compliant. Overall, my role blended infrastructure engineering, automation, security, and close collaboration with developers to ensure high-quality, reliable software delivery.
+Day-to-day, I troubleshot L2/L3 networking and VM-level issues, developed automation scripts in Bash and Python, and ensured all infrastructure and processes were fully documented and compliant.
 
 </details>
 
